@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(76, 206, 130);
+}
+/*Estilo formulario*/
+form{
+    width:600px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+     background-color: white;
+}
+/*Estilo de las encuestas*/
+form input[type="text"],
+form input[type="email"],
+form input[type="age"],
+select {
+	width:570px;
+    height: 30px;
+	padding:3px 10px;
+	margin:12px 0;
+	display:inline-block;
+}
+form input[value="Enter your name"],
+form input[value="Enter your email"],
+form input[value="Enter your age"] {
+    color: rgba(157, 158, 158, 0.795);
+}
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin:8px 0;
+}
+/*Estilo del botón*/
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgb(76, 206, 130);
+    font-size:large;
+    cursor:pointer;
+} 
+/*Fuente general*/
+p,
+label {
+    font-family: sans-serif;
+    font-size:larger;
+    margin: 12px 0;
+}
