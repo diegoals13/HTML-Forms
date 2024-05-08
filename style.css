@@ -20,11 +20,6 @@ select {
 	margin:12px 0;
 	display:inline-block;
 }
-form input[value="Enter your name"],
-form input[value="Enter your email"],
-form input[value="Enter your age"] {
-    color: rgba(157, 158, 158, 0.795);
-}
 form input[type="checkbox"],
 form input[type="radio"] {
     margin:8px 0;
